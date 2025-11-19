@@ -1,0 +1,22 @@
+POST http://localhost:8080/api/shorten
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJzdXJlc2giLCJyb2xlcyI6WyJST0xFX1VTRVIiXSwidXNlcklkIjoxLCJpYXQiOjE3NTc0MDAwNjEsImV4cCI6MTc1NzQ4NjQ2MX0._cwqzWc_ahmCmpRE1lp-aQxr3poo6t5iqSomNPWzOFgL5dGlgzdu7-2ypqPIcQwbdHR32f31MLATSzMcJ0wFbw
+content-type: application/json
+
+{
+    "originalUrl": "https://drive.google.com/drive/folders/1SnSFzvWuhW3EIjnZlfDUWK8HREaDICA6"
+}
+###
+GET http://localhost:8080/api/findOne/1
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJzdXJlc2giLCJyb2xlcyI6WyJST0xFX1VTRVIiXSwidXNlcklkIjoxLCJpYXQiOjE3NTc0MDAwNjEsImV4cCI6MTc1NzQ4NjQ2MX0._cwqzWc_ahmCmpRE1lp-aQxr3poo6t5iqSomNPWzOFgL5dGlgzdu7-2ypqPIcQwbdHR32f31MLATSzMcJ0wFbw
+###
+GET http://localhost:8080/api/findByCode/55kjk
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJzdXJlc2giLCJyb2xlcyI6WyJST0xFX1VTRVIiXSwidXNlcklkIjoxLCJpYXQiOjE3NTc0MDAwNjEsImV4cCI6MTc1NzQ4NjQ2MX0._cwqzWc_ahmCmpRE1lp-aQxr3poo6t5iqSomNPWzOFgL5dGlgzdu7-2ypqPIcQwbdHR32f31MLATSzMcJ0wFbw
+###
+
+GET http://localhost:8080/api/my-urls
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJzdXJlc2giLCJyb2xlcyI6WyJST0xFX1VTRVIiXSwidXNlcklkIjoxLCJpYXQiOjE3NTc0MDAwNjEsImV4cCI6MTc1NzQ4NjQ2MX0._cwqzWc_ahmCmpRE1lp-aQxr3poo6t5iqSomNPWzOFgL5dGlgzdu7-2ypqPIcQwbdHR32f31MLATSzMcJ0wFbw
+###
+
+GET http://localhost:8080/vOUCE
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJzdXJlc2giLCJyb2xlcyI6WyJST0xFX1VTRVIiXSwidXNlcklkIjoxLCJpYXQiOjE3NTc0MDAwNjEsImV4cCI6MTc1NzQ4NjQ2MX0._cwqzWc_ahmCmpRE1lp-aQxr3poo6t5iqSomNPWzOFgL5dGlgzdu7-2ypqPIcQwbdHR32f31MLATSzMcJ0wFbw
+

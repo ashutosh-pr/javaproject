@@ -1,0 +1,37 @@
+# spring.application.name=demo
+
+server:
+  port: 8080
+
+spring:
+  application:
+    name: url-shortener-backend-app
+
+
+  datasource:
+    # File-based H2 DB stored under ./data/urlshortener.mv.db
+    url: jdbc:h2:file:./h2_database/urlshortener;MODE=MySQL
+    driver-class-name: org.h2.Driver
+    username: sa
+    password:
+  jpa:
+    hibernate:
+      ddl-auto: update   # dev convenience; we'll switch to validate later
+    open-in-view: false
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.H2Dialect
+        format_sql: true
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+
+# management:
+#   endpoints:
+#     web:
+#       exposure:
+#         include: health,info
+#   endpoint:
+#     health:
+#       show-details: always

@@ -1,0 +1,14 @@
+POST http://localhost:8080/employees
+content-type: application/json
+
+{
+    "name": "Ramesh",
+    "salary": 30000
+}
+
+###
+
+GET http://localhost:8080/employees
+###
+
+GET http://localhost:8080/employees/2
